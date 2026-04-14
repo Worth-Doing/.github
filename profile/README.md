@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/WhatDoing-AI/brand-assets/main/png/variants/04-horizontal.png" alt="WorthDoing.ai" width="700" />
+  <img src="https://raw.githubusercontent.com/Worth-Doing/brand-assets/main/png/variants/04-horizontal.png" alt="WorthDoing.ai" width="700" />
 </p>
 
 <h1 align="center">WorthDoing AI</h1>
@@ -337,7 +337,7 @@ Brand assets (logos, icons, visual identity) are **proprietary** to WorthDoing A
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/WhatDoing-AI/brand-assets/main/png/variants/03-icon-only.png" alt="WorthDoing AI Icon" width="60" />
+  <img src="https://raw.githubusercontent.com/Worth-Doing/brand-assets/main/png/variants/03-icon-only.png" alt="WorthDoing AI Icon" width="60" />
 </p>
 
 <p align="center">
