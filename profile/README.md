@@ -228,6 +228,7 @@ The WorthDoing AI icon represents a neural network converging toward a single de
 |------------|-------------|----------|--------|
 | [`ai-playground`](https://github.com/Worth-Doing/ai-playground) | Unified AI playground — 350+ models, compare lab, embeddings, image generation | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | ![Production Ready](https://img.shields.io/badge/-Production%20Ready-brightgreen?style=flat-square) |
 | [`local-llm-inference`](https://github.com/Worth-Doing/local-llm-inference) | Custom C++ inference engine for Apple Silicon with professional Web UI | ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) | ![Active Dev](https://img.shields.io/badge/-Active%20Development-0ea5e9?style=flat-square) |
+| [`worthdoing-capabilities`](https://github.com/Worth-Doing/worthdoing-capabilities) | Official capability package — portable, composable agent actions with runtime, registry, and CLI | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | ![Active Dev](https://img.shields.io/badge/-Active%20Development-0ea5e9?style=flat-square) |
 | [`brand-assets`](https://github.com/Worth-Doing/brand-assets) | Official logos and brand assets — 12 variants in SVG and PNG | ![Assets](https://img.shields.io/badge/-Brand%20Assets-f59e0b?style=flat-square) | ![Complete](https://img.shields.io/badge/-Complete-brightgreen?style=flat-square) |
 
 ---
