@@ -154,6 +154,106 @@ This is **not** a wrapper around llama.cpp or any existing runtime. It is a **ho
 
 ---
 
+### macpulse
+
+<p align="center">
+  <a href="https://github.com/Worth-Doing/macpulse">
+    <img src="https://img.shields.io/badge/Repository-macpulse-181717?style=for-the-badge&logo=github" alt="macpulse repo" />
+  </a>
+  <a href="https://www.npmjs.com/package/macpulse">
+    <img src="https://img.shields.io/badge/npm-macpulse-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/macOS-Only-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS" />
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Zero-Dependencies-10b981?style=flat-square" alt="Zero Deps" />
+  <img src="https://img.shields.io/badge/Interactive-TUI-06b6d4?style=flat-square" alt="TUI" />
+  <img src="https://img.shields.io/badge/Real--time-Monitoring-f59e0b?style=flat-square" alt="Real-time" />
+</p>
+
+> **Next-gen Mac system monitor — real-time CPU, RAM, GPU, disk, network, and battery in a beautiful interactive terminal UI.**
+
+```bash
+npm install -g macpulse
+macpulse
+```
+
+| Metric | Details |
+|--------|---------|
+| **CPU** | Total + per-core usage, load average, sparkline history, spike detection |
+| **RAM** | Activity Monitor-accurate: app/wired/compressed/cache breakdown, memory pressure |
+| **GPU** | Metal usage estimation, GPU model detection |
+| **Disk** | Read/write speed, capacity usage |
+| **Network** | Download/upload rates, interface detection |
+| **Battery** | Charge %, health %, cycle count, charging status, time remaining |
+
+4 view modes: Dashboard, Detailed (`d`), Process (`p`), Graph (`g`). Gradient progress bars, rounded-corner panels, dual-column layout on wide terminals.
+
+---
+
+### WD Agent
+
+<p align="center">
+  <a href="https://github.com/Worth-Doing/wd-agent">
+    <img src="https://img.shields.io/badge/Repository-wd--agent-181717?style=for-the-badge&logo=github" alt="wd-agent repo" />
+  </a>
+  <a href="https://www.npmjs.com/package/wd-agent">
+    <img src="https://img.shields.io/badge/npm-wd--agent-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude-Opus%204.6-8B5CF6?style=flat-square" alt="Claude" />
+  <img src="https://img.shields.io/badge/Native-tool__use-10b981?style=flat-square" alt="tool_use" />
+  <img src="https://img.shields.io/badge/OpenRouter-350+%20Models-06b6d4?style=flat-square" alt="OpenRouter" />
+  <img src="https://img.shields.io/badge/Capabilities-22+-f59e0b?style=flat-square" alt="Capabilities" />
+  <img src="https://img.shields.io/badge/Context-Auto%20Compact-ef4444?style=flat-square" alt="Auto Compact" />
+</p>
+
+> **A local AI agent operating system for your terminal — think, act, execute, persist.**
+
+```bash
+npm install -g wd-agent
+wdagent
+```
+
+Uses Anthropic's native `tool_use` API (zero JSON parsing), WorthDoing Capabilities as the execution layer, context auto-compaction, and token tracking. Supports both Anthropic direct and OpenRouter (350+ models) with interactive scrollable model selection.
+
+---
+
+### WorthDoing Capabilities
+
+<p align="center">
+  <a href="https://github.com/Worth-Doing/worthdoing-capabilities">
+    <img src="https://img.shields.io/badge/Python-worthdoing--capabilities-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  </a>
+  <a href="https://github.com/Worth-Doing/worthdoing-capabilities-js">
+    <img src="https://img.shields.io/badge/TypeScript-worthdoing--capabilities-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  </a>
+  <a href="https://www.npmjs.com/package/worthdoing-capabilities">
+    <img src="https://img.shields.io/badge/npm-worthdoing--capabilities-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
+  </a>
+</p>
+
+> **Production-grade capability package — 31 portable, composable agent actions across 8 API providers.**
+
+| Provider | Capabilities |
+|----------|-------------|
+| **Exa** | search, findSimilar, contents, answer |
+| **Tavily** | search, extract |
+| **Firecrawl** | scrape, search, map |
+| **OpenRouter** | chat, models |
+| **OpenAlex** | works, authors, institutions |
+| **FMP** | quote, profile, financialStatements, historicalPrices |
+| **EODHD** | eod, fundamentals, search |
+| **Documents** | excel, word, latex |
+
+Python package: runtime, registry, YAML contracts, CLI (`wdcap`), 188 tests. TypeScript SDK: zero dependencies, ESM + CJS, interactive CLI explorer.
+
+---
+
 ### Brand Assets
 
 <p align="center">
@@ -206,6 +306,15 @@ The WorthDoing AI icon represents a neural network converging toward a single de
   <img src="https://img.shields.io/badge/Metal-GPU-ef4444?style=for-the-badge&logo=apple&logoColor=white" alt="Metal" />
   <img src="https://img.shields.io/badge/OpenRouter-Integration-8B5CF6?style=for-the-badge" alt="OpenRouter" />
   <img src="https://img.shields.io/badge/HuggingFace-Integration-fbbf24?style=for-the-badge&logo=huggingface&logoColor=white" alt="HuggingFace" />
+  <img src="https://img.shields.io/badge/Claude-Opus%204.6-8B5CF6?style=for-the-badge" alt="Claude" />
+</p>
+
+### npm Packages
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/macpulse"><img src="https://img.shields.io/npm/v/macpulse?label=macpulse&color=CB3837&style=for-the-badge&logo=npm&logoColor=white" alt="macpulse" /></a>
+  <a href="https://www.npmjs.com/package/wd-agent"><img src="https://img.shields.io/npm/v/wd-agent?label=wd-agent&color=CB3837&style=for-the-badge&logo=npm&logoColor=white" alt="wd-agent" /></a>
+  <a href="https://www.npmjs.com/package/worthdoing-capabilities"><img src="https://img.shields.io/npm/v/worthdoing-capabilities?label=capabilities&color=CB3837&style=for-the-badge&logo=npm&logoColor=white" alt="capabilities" /></a>
 </p>
 
 ### Full Stack Overview
@@ -261,39 +370,36 @@ The WorthDoing AI icon represents a neural network converging toward a single de
 
 ## Getting Started
 
-### AI Playground
+### npm Packages (fastest)
 
 ```bash
-# Clone the repository
-git clone https://github.com/Worth-Doing/ai-playground.git
-cd ai-playground
+# System monitor — see your Mac in real time
+npm install -g macpulse
+macpulse
 
-# Install dependencies
-pnpm install
+# AI Agent — local agent OS powered by Claude
+npm install -g wd-agent
+wdagent
 
-# Set up environment
-cp .env.example .env.local
-# Add your OpenRouter API key to .env.local
-
-# Start development server
-pnpm dev
+# Capabilities SDK — 31 portable agent actions
+npm install worthdoing-capabilities
 ```
 
-### Local LLM Inference
+### From Source
 
 ```bash
-# Clone the repository
+# AI Playground
+git clone https://github.com/Worth-Doing/ai-playground.git
+cd ai-playground && pnpm install && pnpm dev
+
+# Local LLM Inference
 git clone https://github.com/Worth-Doing/local-llm-inference.git
-cd local-llm-inference
+cd local-llm-inference/engine && make -j$(sysctl -n hw.ncpu)
+cd ../app && pnpm install && pnpm dev
 
-# Build the C++ inference engine
-cd engine && make clean && make -j$(sysctl -n hw.ncpu)
-
-# Install web UI dependencies
-cd ../app && pnpm install
-
-# Start the application
-pnpm dev
+# Website
+git clone https://github.com/Worth-Doing/worthdoing-website.git
+cd worthdoing-website && npm install && npm run dev
 ```
 
 ---
